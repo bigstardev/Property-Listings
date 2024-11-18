@@ -1,21 +1,21 @@
 ## Property Listing app
 
--User can search address and property type using search bar
--User can filter the properties based on price and type of property (single family, condo, townhouse)
--There are only two pages (home, property detail page)
+-User can search address and property type using search bar.<br/>
+-User can filter the properties based on price and type of property (single family, condo, townhouse).<br/>
+-There are only two pages (home, property detail page)<br/>
 -App is mobile-responsive
 
-# Project structure
+## Project structure
 
--There are two folders inside components (design system, layouts)
--usePropertyFilter inside hooks directory is the main hook for searching and filtering
--App is written by TypeScript and TailwindCSS.
+-There are two folders inside components (design system, layouts).<br/>
+-usePropertyFilter inside hooks directory is the main hook for searching and filtering.<br/>
+-App is written by TypeScript and TailwindCSS.<br/>
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
 
-Node version: 22.11.0
+Node version: 22.11.0:
 First, run the development server:
 
 ```bash
