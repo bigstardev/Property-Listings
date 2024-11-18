@@ -15,7 +15,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-Node version: 22.11.0:
+Node version: 22.11.0<br/>
 First, run the development server:
 
 ```bash
