@@ -10,7 +10,7 @@ interface PropertyListProps {
   initialProperties: Property[];
 }
 
-const propertyTypes = ["Single Family", "Condo", "Townhouse"];
+const propertyTypes = ["Single Family", "Condo", "Townhouse", "Apartment"];
 
 const PropertyList: React.FC<PropertyListProps> = ({ initialProperties }) => {
   const {
@@ -81,6 +81,7 @@ const PropertyList: React.FC<PropertyListProps> = ({ initialProperties }) => {
               label={propertyType}
               checked={selectedTypes.includes(propertyType)}
               onChange={() => togglePropertyType(propertyType)}
+              id={propertyType}
             />
           ))}
         </div>
